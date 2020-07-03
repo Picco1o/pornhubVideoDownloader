@@ -1,5 +1,5 @@
 # pornhubVideoDownloader
-a multi-threaded pornhub video downloader
+多线程pornhub视频下载器
 
 #### python版本
 - [x] python3+
