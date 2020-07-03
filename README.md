@@ -10,11 +10,13 @@
  ```shell
 git clone https://github.com/Picco1o/pornhubVideoDownloader.git
 ```
+- JavaScript依赖
+
+	linux用户需先配置node.js或其他javascript运行环境
 
 - 下载依赖：
 
  ```shell
-# linux需先配置node.js或其他javascript运行环境
 cd pornhubVideoDownloader
 pip install -r requirements.txt
 # or
