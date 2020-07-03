@@ -16,6 +16,8 @@ git clone https://github.com/Picco1o/pornhubVideoDownloader.git
  ```shell
 cd pornhubVideoDownloader
 pip install -r requirements.txt
+# or
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
 
 - 运行：
