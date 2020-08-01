@@ -68,7 +68,8 @@ def download(size, config, chunk, file):
     download_size += int(r.headers['Content-Length'])
     file.seek(chunk[0])
     file.write(r.content)
-    print('\r' + '[下载进度]:{}{:.2f}%'.format('>' * int(50 * download_size / size), (download_size / size * 100)), end='')
+    icon = int(50 * download_size / size)
+    print('\r' + '[下载进度]:[{}]{:.2f}%'.format(('#' * icon).ljust(50), (download_size / size * 100)), end='')
 
 
 def create_task(size, file, config):
